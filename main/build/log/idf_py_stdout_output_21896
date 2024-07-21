@@ -1,0 +1,9 @@
+-- The C compiler identification is Clang 16.0.1
+-- The CXX compiler identification is Clang 16.0.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Espressif/tools/esp-clang/16.0.1-fe4f10a809/esp-clang/bin/clang.exe
+-- Check for working C compiler: C:/Espressif/tools/esp-clang/16.0.1-fe4f10a809/esp-clang/bin/clang.exe - broken
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/PrimerUsuario/OneDrive/Desktop/HC-SR501 + LDR/blink/main/build/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/PrimerUsuario/OneDrive/Desktop/HC-SR501 + LDR/blink/main/build/CMakeFiles/CMakeError.log".
