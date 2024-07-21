@@ -10,7 +10,7 @@ Before project configuration and build, be sure to set the correct chip target u
 ### Hardware Required
 
 * A development board with Espressif SoC with Zigbee support
-* A USB cable for Power supply and programming
+* An USB cable for Power supply and programming
 * DHT11 sensor
 * HC-SR501 sensor
 * LDR module sensor 
