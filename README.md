@@ -1,34 +1,27 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
+| Supported Targets | ESP32-C6 | ESP32-H2 |
+| ----------------- | -------- | -------- | 
 
-# Blink Example
+# ESP32-C6 Zigbee End device
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
-This example demonstrates how to blink a LED using GPIO or using the [led_strip](https://components.espressif.com/component/espressif/led_strip) component for the addressable LED, i.e. [WS2812](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf).
-
-The `led_strip` is installed via [component manager](main/idf_component.yml).
-
-## How to Use Example
+## How to Use
 
 Before project configuration and build, be sure to set the correct chip target using `idf.py set-target <chip_name>`.
 
 ### Hardware Required
 
-* A development board with Espressif SoC (e.g., ESP32-DevKitC, ESP-WROVER-KIT, etc.)
+* A development board with Espressif SoC with Zigbee support
 * A USB cable for Power supply and programming
+* DHT11 sensor
+* HC-SR501 sensor
+* LDR module sensor 
 
-Some development boards use an addressable LED instead of a regular one. These development boards include:
+| Sensor               | Pin                  |
+| -------------------- | -------------------- |
+| DHT 11               | GPIO10               |
+| HC-SR501             | GPIO8                |
+| LDR                  | GPIO0                |
 
-| Board                | LED type             | Pin                  |
-| -------------------- | -------------------- | -------------------- |
-| ESP32-C3-DevKitC-1   | Addressable          | GPIO8                |
-| ESP32-C3-DevKitM-1   | Addressable          | GPIO8                |
-| ESP32-S2-DevKitM-1   | Addressable          | GPIO18               |
-| ESP32-S2-Saola-1     | Addressable          | GPIO18               |
-| ESP32-S3-DevKitC-1   | Addressable          | GPIO48               |
-
-See [Development Boards](https://www.espressif.com/en/products/devkits) for more information about it.
+See [https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf] for more information about pinout.
 
 ### Configure the Project
 
