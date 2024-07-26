@@ -17,8 +17,8 @@ Before project configuration and build, be sure to set the correct chip target u
 
 | Sensor               | Pin                  |
 | -------------------- | -------------------- |
-| DHT 11               | GPIO 10              |
-| HC-SR501             | GPIO 8               |
+| DHT 11               | GPIO 11              |
+| HC-SR501             | GPIO 10              |
 | LDR                  | GPIO 0               |
 
 See [https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf] for more information about pinout.
